@@ -29,6 +29,7 @@ public class HelloController {
 	@RequestMapping("/bye")
 	@ResponseBody
 	public String  bye() {
+		System.out.println("test branch");
 		return "goodbye";
 	}
 	
