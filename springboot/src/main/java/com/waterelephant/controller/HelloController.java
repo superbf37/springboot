@@ -26,5 +26,11 @@ public class HelloController {
 		return bean;
 	}
 
+	@RequestMapping("/bye")
+	@ResponseBody
+	public String  bye() {
+		return "goodbye";
+	}
+	
 	
 }
